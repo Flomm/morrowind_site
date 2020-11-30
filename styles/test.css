@@ -1,0 +1,122 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "EB Garamond", serif;
+}
+.wrapper {
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-bottom: 60px;
+  margin-top: 20px;
+  padding-bottom: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.15);
+
+  background-color: #ccc569;
+}
+
+.quiz_holder {
+  text-align: center;
+  font-family: "EB Garamond", serif;
+  font-size: large;
+}
+
+.button_holder {
+  text-align: center;
+}
+
+#submit {
+  font-family: "EB Garamond", serif;
+  background-color: #a78e49;
+  border: solid;
+  color: #041114;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+#submit:hover {
+  color: #ccc569;
+  text-shadow: 5px 9px 20px rgba(0, 0, 0, 0.15);
+}
+
+#results {
+  margin-top: 50px;
+  margin-bottom: 100px;
+  text-align: center;
+  font-size: larger;
+}
+
+.back_main_link {
+  text-decoration: none;
+  color: #041114;
+  font-size: large;
+  font-weight: 600;
+}
+
+.slide {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+.active-slide {
+  opacity: 1;
+  z-index: 2;
+}
+.quiz-container {
+  position: relative;
+  height: 200px;
+  margin-top: 40px;
+}
+
+#previous {
+  font-family: "EB Garamond", serif;
+  background-color: #a78e49;
+  border: none;
+  color: #041114;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+#next {
+  font-family: "EB Garamond", serif;
+  background-color: #a78e49;
+  border: none;
+  color: #041114;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.prev_next_button {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.submit_holder {
+  text-align: center;
+  margin-top: 100px;
+}
